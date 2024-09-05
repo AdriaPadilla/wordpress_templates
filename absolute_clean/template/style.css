@@ -1,0 +1,296 @@
+/* Header */
+#header {
+	text-align:left;
+	margin-top: 35px;
+}
+
+#logo img {
+	max-width: 200px;
+	display: block;
+}
+
+
+/* General Styles */
+
+html {
+	font-size: 100%;
+	word-wrap: break-word;
+	font-family: "atkinson-hyperlegible", sans-serif;
+	background-color: white;
+	color: black;
+	max-width: 100%;
+}
+body { 
+	color: #444;
+	font-size: 1em;
+ 	line-height: 1.4em;
+	max-width: 850px;
+	margin: 0 auto;
+	background-color: white;
+	}
+	
+#wrapper { 
+	display: block; 
+	width:90%; 
+	margin:0px auto; 
+	}
+
+p {
+	line-height: 1.46em;
+	text-align: justify;
+}
+h1, h2, h3, h4 {
+	line-height: 1.2em;
+}
+h1 { 
+	font-size: 3.3em;
+	font-weight: 500;
+	}
+h2 { 
+	font-size: 1.5em;
+	font-weight: 500;
+	}
+h3 {
+	font-size: 1.1 em;
+	font-weight: 500;
+}
+
+/* Home page articles index links */
+.index-post-title  {
+	margin-bottom: 0px;
+	}
+	
+.post-category {
+	text-transform: uppercase;
+	font-family: Courier, monospace;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.001em;
+	font-size:0.9em;
+}
+.post-date {
+	text-transform: uppercase;
+	font-family: Courier, monospace;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.001em;
+	font-size:0.9em;
+}
+.index-post-title a {
+	color: #4352ac;
+	text-decoration: none;
+}
+.post-category a {
+	color: #486ba4;
+}
+/* Single.php Styles */
+
+.article-title {
+	font-family: Courier, monospace;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.001em;
+	}
+.data-autor {
+	font-family: Courier, monospace;
+	text-align: center;
+	font-weight: 400;
+}
+
+#continguts p { 
+	text-align: justify;
+	text-indent: 2em;
+	}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center; 
+    margin-bottom: 25px;
+}
+
+.footer p {
+	text-align: center;
+	text-indent: 0rem;
+}
+
+.footer .cc-icons {
+    display: inline-flex; 
+    justify-content: center;
+    gap: 3px; 
+}
+
+.footer .cc-icons img {
+    height: 22px; 
+}
+
+.credit {
+	text-align: center;
+}
+
+/* CATEGORY PAGE */
+
+#category-page-title ul, li {
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	margin: 0; /* Remove margins */
+}
+#category-page-title p {
+	text-indent: 0em;
+}
+
+/* Little Details */
+
+.bordes {
+	border: 1px dotted black;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+figure .wp-block-image {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+/* Links */	
+
+.titol a:link {
+	text-decoration:none!important;
+	color: #444;
+	}
+.titol a:visited {
+	text-decoration:none!important;
+	color: #444;
+	}		
+.titol a:hover {
+	text-decoration:underline!important;
+	color: #444;
+	}	
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a:hover {
+  color: #06e;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+/* breadcrumb */
+
+.breadcrumb a:link {
+	text-decoration:underline!important;
+	color: #444;
+	}
+.breadcrumb a:visited {
+	text-decoration:none!important;
+	color: #444;
+	}		
+.breadcrumb a:hover {
+	text-decoration:underline!important;
+	color: #444;
+	}		
+
+/* Comments */
+
+.commentlist li{ 
+	padding-left: 15px!important;
+}
+
+/* display */
+
+@media only screen and (max-width: 650px) {
+	body { 
+		max-width: 100%;
+	}
+	h1, h2, h3, h4 {
+		line-height: 1.1em;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h2 { 
+		font-size: 1.4em;
+		}
+	h3 {
+		font-size: 1.2em;
+	}
+	.article-title {
+		font-size: 2em;
+	}
+}
+
+
+
+/* FORMS */ 
+
+#comments-form {
+	margin-bottom: 15px;
+	clear: both;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+.labels p {
+	text-align: left;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: none;
+}
+@media only screen and (max-width:500px){
+	.button {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.1em;
+		margin: 4px 2px;
+		cursor: pointer;
+		float: none;
+		width: 100%;
+	}
+}
